@@ -115,7 +115,7 @@ if 'df_1' in locals() and 'df_2' in locals():
     else:
         regression_line_text = f'y = {slope:.3f}x - {abs(intercept):.3f}'
 
-    plt.text(20000, 5000, regression_line_text, fontsize=18)
+    plt.text(10000, 5000, regression_line_text, fontsize=18)
 
     # Display the plot
     st.pyplot(plt)
