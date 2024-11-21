@@ -89,7 +89,6 @@ if 'df_1' in locals() and 'df_2' in locals():
 
     # ----------- Plot ---------- #
     plt.figure(figsize=(10, 8))
-    plt.rcParams['font.family'] = 'Arial'
 
     plt.scatter(df_combined[x_col], df_combined[y_col], s=50)
     plt.plot(df_combined[x_col], regression_line, linewidth=2.5, color='orange')
